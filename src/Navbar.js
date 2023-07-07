@@ -1,24 +1,24 @@
-import React from 'react'
-import { Text, View, StyleSheet } from 'react-native';
+import React from "react";
+import { Text, View, StyleSheet } from "react-native";
 
-export const Navbar = ({title}) => {
+export const Navbar = ({ title }) => {
   return (
     <View style={styles.navbar}>
-        <Text style={styles.text}>{title}</Text>
+      <Text style={styles.text}>{title}</Text>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
-    navbar: {
-        height: 50,
-        alignItems: 'center',
-        justifyContent: 'flex-end',
-        backgroundColor: '#3949ab',
-        paddingBottom: 10,
-    },
-    text: {
-        color: 'white',
-        fontSize: 20,
-    },
-})
+  navbar: {
+    height: 50,
+    alignItems: "center",
+    justifyContent: "flex-end",
+    backgroundColor: "#3949ab",
+    paddingBottom: 10,
+  },
+  text: {
+    color: "white",
+    fontSize: 20,
+  },
+});
